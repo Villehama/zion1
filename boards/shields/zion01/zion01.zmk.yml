@@ -1,0 +1,14 @@
+
+file_format: "1"
+id: zion01
+name: zion01
+type: shield
+features:
+  - keys
+  - studio
+outputs:
+  - usb
+  - ble
+siblings:
+  - zion01_left
+  - zion01_right

@@ -1,0 +1,14 @@
+
+if SHIELD_ZION01_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "zion01"
+
+endif
+
+if SHIELD_ZION01_LEFT || SHIELD_ZION01_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif

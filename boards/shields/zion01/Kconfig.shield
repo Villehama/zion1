@@ -1,0 +1,4 @@
+config SHIELD_ZION01_LEFT
+    def_bool $(shields_list_contains,zion01_left)
+config SHIELD_ZION01_RIGHT
+    def_bool $(shields_list_contains,zion01_right)
